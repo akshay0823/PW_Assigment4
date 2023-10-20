@@ -1,0 +1,13 @@
+HTML entities are special characters that cannot be easily typed using a keyboard. They are used in HTML and XML documents to represent characters that have special meaning in markup languages. Here are the top 5 commonly used HTML entities:
+
+&lt; - Represents the less than symbol (<). This is used to escape the less than sign so that it won't be interpreted as the opening of an HTML tag.
+
+&gt; - Represents the greater than symbol (>). Similar to &lt;, this entity is used to escape the greater than sign in HTML and XML.
+
+&amp; - Represents the ampersand (&). This is used to escape the ampersand symbol in HTML and XML. For example, it's used in URLs to ensure special characters are interpreted correctly.
+
+&quot; - Represents the double quotation mark ("). This entity is used to escape double quotes inside HTML attributes defined with double quotes. For example, in <input type="text" value="Sample text">, the double quotes around "Sample text" would be encoded as &quot;.
+
+&apos; - Represents the apostrophe ('). This entity is used to escape single quotes inside HTML attributes defined with single quotes. Note that this entity is not supported in HTML 4, but it is supported in HTML 5 and XML.
+
+These entities are crucial for ensuring proper rendering of special characters in web pages and other HTML or XML documents.
